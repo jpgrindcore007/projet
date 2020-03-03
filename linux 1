@@ -1,0 +1,33 @@
+jp@faucon-millenium:~$ pwd
+/home/jp
+jp@faucon-millenium:~$ pwd*
+
+La commande « pwd* » n'a pas été trouvée, voulez-vous dire :
+
+  commande « pwdx » du deb procps
+  commande « pwd » du deb coreutils
+
+Essayez : sudo apt install <nom du deb>
+
+jp@faucon-millenium:~$ pwd
+/home/jp
+jp@faucon-millenium:~$ cd
+jp@faucon-millenium:~$ cd Images
+jp@faucon-millenium:~/Images$ pwd
+/home/jp/Images
+jp@faucon-millenium:~/Images$ cd ..
+jp@faucon-millenium:~$ cd/opt
+bash: cd/opt: Aucun fichier ou dossier de ce type
+jp@faucon-millenium:~$ cd/opt
+bash: cd/opt: Aucun fichier ou dossier de ce type
+jp@faucon-millenium:~$ cd
+jp@faucon-millenium:~$ cd Images
+jp@faucon-millenium:~/Images$ cd ..
+jp@faucon-millenium:~$ cd /opt
+jp@faucon-millenium:/opt$ cd
+jp@faucon-millenium:~$ cd ../home/wilder
+bash: cd: ../home/wilder: Aucun fichier ou dossier de ce type
+jp@faucon-millenium:~$ cd /usr/bin
+jp@faucon-millenium:/usr/bin$ 
+jp@faucon-millenium:/usr/bin$ cd ~/Musique
+jp@faucon-millenium:~/Musique$ 
