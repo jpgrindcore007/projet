@@ -31,3 +31,21 @@ jp@faucon-millenium:~$ cd /usr/bin
 jp@faucon-millenium:/usr/bin$ 
 jp@faucon-millenium:/usr/bin$ cd ~/Musique
 jp@faucon-millenium:~/Musique$ 
+jp@faucon-millenium:~$ ls 
+Bureau     Modèles  planets.zip  tacosfolder      vieuxtacos.txt
+Documents  Musique  Public       Téléchargements
+Images     planets  snap         Vidéos
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ 
+jp@faucon-millenium:~$ ls 
+Bureau     Modèles  planets.zip  tacosfolder      vieuxtacos.txt
+Documents  Musique  Public       Téléchargements
+Images     planets  snap         Vidéos
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ ^C
+jp@faucon-millenium:~$ 
