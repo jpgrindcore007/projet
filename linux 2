@@ -1,0 +1,122 @@
+jp@faucon-millenium:~/planets$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── Real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
+
+208  tree
+  209  cp earth.jpeg
+  210  cp earth.jpeg mars.jpeg venus.jpeg telluric
+  211  cp earth.jpeg Real
+  212  cp earth.jpeg Real telluric
+  213  tree
+  214  mv erath.jpeg telluric
+  215  mv Real/earth.jpeg Real/telluric
+  216  tree
+  217  mv earth.jpeg inhabited/
+  218  tree
+  219  mv pluto.jpeg Real/dwarfs-planets/
+  220  mv jupiter.jpeg neptune.jpeg uranus.jpeg saturn.jpeg Real/gas-giants/
+  221  tree
+  222  mv mars.jpeg venus.jpeg Real/telluric/
+  223  fictional
+  224  cdfictional
+  225  cd fictional 
+  226  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+  227  tree
+  228  cd planets
+  229  pwd
+  230  ~
+  231  cd planets
+  232  planets/tmp
+  233  cd 
+  234  planets
+  235  planets/tmp
+  236  tree
+  237  cd planets
+  238  tree
+  239  /fictional
+  240  fictional/
+  241  cd fictional
+  242  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional /inhabited
+  243  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+  244  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets /inhabited
+  245  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets/inhabited
+  246  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+  247  tree
+  248  cp fictional/arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/inhabited
+  249  cd fictional
+  250  cp arrakis.jpeg inhabited
+  251  cp coruscant.jpeg cybertron.jpeg inhabited
+  252  cp coruscant.jpeg inhabited
+  253  cp cybertron.jpeg inhabited
+  254  tree
+  255  cd planets
+  256  pwd
+  257  cd planets
+  258  ~
+  259  cd dwarfs-planets
+  260  ls
+  261  pwd
+  262  cd planets
+  263  ls
+  264  cd ..
+  265  tree
+  266  cd fictional
+  267  rm inhabited
+  268  cd ..
+  269  tree
+  270  fictional
+  271  cd fictional
+  272  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets /inhabited
+  273  cp arrakis.jpeg fictional/inhabited
+  274  tree
+  275  cd ..
+  276  tree
+  277  cd fictional
+  278  cp arrakis.jpeg inhabited
+  279  tree
+  280  rm inhabited
+  281  cp fictional/arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+  282  cp coruscant.jpeg fictional/inhabited
+  283  cd..
+  284  cd ..
+  285  tree
+  286  cp fictional
+  287  cd fictional
+  288  cp arrakis.jpeg inhabited
+  289  cd ..
+  290  tree
+  291  cd fictionla
+  292  cd fictional
+  293  rm inhabited
+  294  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets/inhabited
+  295  cd ..
+  296  tree
+  297  mv mercury.jpeg Real/telluric
+  298  tree
+  299  cp fictional/*.jpeg inhabited
+  300  tree
+  301  rmdir Real/dwarfs-planets 
+  302  -r Real/dwarfs-planets/
+  303  rm -rf Real/dwarfs-planets/
+  304  tree
+  305  history
+jp@faucon-millenium:~/planets$ 
